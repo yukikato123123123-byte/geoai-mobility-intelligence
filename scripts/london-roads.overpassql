@@ -1,0 +1,1 @@
+[out:json][timeout:25][maxsize:33554432];way["highway"~"^(motorway|trunk|primary|secondary|tertiary|motorway_link|trunk_link|primary_link|secondary_link|tertiary_link|residential|unclassified|service|living_street)$"](51.500,-0.135,51.513,-0.115);out tags geom;

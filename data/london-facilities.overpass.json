@@ -1,0 +1,1483 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-19T21:31:21Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 25534427,
+  "lat": 51.5013562,
+  "lon": -0.1249302,
+  "tags": {
+    "fare_zone": "1",
+    "line": "District;Circle;Jubilee",
+    "name": "Westminster",
+    "name:ar": "وستمنستر",
+    "name:da": "Westminster Station",
+    "name:ru": "Вестминстер",
+    "name:zh": "威斯敏斯特",
+    "name:zh-Hans": "威斯敏斯特",
+    "name:zh-Hant": "西敏",
+    "naptan:AtcoCode": "9400ZZLUWSM",
+    "network": "London Underground",
+    "operator": "London Underground",
+    "payment:contactless": "yes",
+    "payment:oyster": "yes",
+    "public_transport": "station",
+    "railway": "station",
+    "ref:crs": "ZWM",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wheelchair:description": "Lifts link all platforms on Jubilee and Circle/District lines. (photos to follow)",
+    "wikidata": "Q1135834",
+    "wikimedia_commons": "Category:Westminster tube station",
+    "wikipedia": "en:Westminster tube station"
+  }
+},
+{
+  "type": "node",
+  "id": 568544257,
+  "lat": 51.5083417,
+  "lon": -0.1247134,
+  "tags": {
+    "addr:city": "London",
+    "addr:housename": "Charing Cross Station",
+    "addr:postcode": "WC2N 5HS",
+    "addr:street": "Strand",
+    "addr:unit": "Unit 5",
+    "amenity": "pharmacy",
+    "branch": "London Charing Cross Station",
+    "brand": "Boots",
+    "brand:wikidata": "Q6123139",
+    "brand:wikipedia": "en:Boots (company)",
+    "check_date": "2025-08-20",
+    "contact:phone": "+44 20 7839 5510",
+    "contact:website": "http://www.boots.com/stores/797-london-charing-cross-station-wc2n-5hs",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "fhrs:id": "414222",
+    "fhrs:local_authority_id": "01576/2004/4/005",
+    "healthcare": "pharmacy",
+    "level": "0",
+    "name": "Boots",
+    "opening_hours": "Mo-Fr 07:00-22:00; Sa 08:00-20:00; Su 09:00-19:00",
+    "operator": "Boots UK Limited",
+    "payment:american_express": "yes",
+    "ref": "797",
+    "source": "survey",
+    "source:addr": "FHRS Open Data",
+    "wheelchair": "yes",
+    "wheelchair:description": "Step-free from main line booking hall."
+  }
+},
+{
+  "type": "node",
+  "id": 603138296,
+  "lat": 51.5107361,
+  "lon": -0.1203585,
+  "tags": {
+    "addr:city": "London",
+    "addr:housenumber": "105-108",
+    "addr:postcode": "WC2R 0AA",
+    "addr:street": "Strand",
+    "amenity": "pharmacy",
+    "branch": "London 105 The Strand",
+    "brand": "Boots",
+    "brand:wikidata": "Q6123139",
+    "brand:wikipedia": "en:Boots (company)",
+    "check_date": "2023-09-23",
+    "contact:phone": "+44 20 7240 5963",
+    "dispensing": "yes",
+    "fhrs:id": "1392218",
+    "fixme": "Is this Boots store still here? (Website broken)",
+    "healthcare": "pharmacy",
+    "level": "0",
+    "name": "Boots",
+    "name:ja": "ブーツ",
+    "operator": "Boots UK Limited",
+    "payment:american_express": "yes",
+    "ref": "1630",
+    "website": "https://www.boots.com/stores/1630-london-the-strand-wc2r-0aa",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2536635239,
+  "lat": 51.5096681,
+  "lon": -0.1236492,
+  "tags": {
+    "addr:city": "London",
+    "addr:housenumber": "426-427",
+    "addr:postcode": "WC2R 0QE",
+    "addr:street": "Strand",
+    "addr:suburb": "Strand",
+    "amenity": "pharmacy",
+    "brand": "Boots",
+    "brand:wikidata": "Q6123139",
+    "brand:wikipedia": "en:H&M",
+    "check_date": "2023-09-23",
+    "fhrs:id": "1335538",
+    "healthcare": "pharmacy",
+    "level": "0",
+    "name": "Boots",
+    "payment:american_express": "yes",
+    "shop": "chemist",
+    "source:addr": "FHRS Open Data",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3370671078,
+  "lat": 51.5114642,
+  "lon": -0.1282641,
+  "tags": {
+    "fare_zone": "1",
+    "line": "Piccadilly;Northern",
+    "name": "Leicester Square",
+    "name:ru": "Лестер-сквер",
+    "naptan:AtcoCode": "9400ZZLULSQ",
+    "network": "London Underground",
+    "network:wikidata": "Q20075",
+    "operator": "London Underground",
+    "payment:contactless": "yes",
+    "payment:oyster": "yes",
+    "public_transport": "station",
+    "railway": "station",
+    "ref:crs": "ZLC",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "no",
+    "wikidata": "Q2538959",
+    "wikipedia": "en:Leicester Square tube station"
+  }
+},
+{
+  "type": "node",
+  "id": 3638779316,
+  "lat": 51.5098192,
+  "lon": -0.1345484,
+  "tags": {
+    "fare_zone": "1",
+    "line": "Piccadilly;Bakerloo",
+    "name": "Piccadilly Circus",
+    "name:et": "Piccadilly Circuse metroojaam",
+    "name:ru": "Пикадилли-сёркус",
+    "name:zh": "皮卡迪利圓環站",
+    "name:zh-Hant": "皮卡迪利圓環站",
+    "naptan:AtcoCode": "9400ZZLUPCC",
+    "network": "London Underground",
+    "operator": "London Underground",
+    "payment:contactless": "yes",
+    "payment:oyster": "yes",
+    "public_transport": "station",
+    "railway": "station",
+    "ref:crs": "ZPC",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "no",
+    "wikidata": "Q26448",
+    "wikipedia": "en:Piccadilly Circus tube station"
+  }
+},
+{
+  "type": "node",
+  "id": 3660442172,
+  "lat": 51.5079664,
+  "lon": -0.1263945,
+  "tags": {
+    "fare_zone": "1",
+    "line": "Bakerloo;Northern",
+    "name": "Charing Cross",
+    "naptan:AtcoCode": "940GZZLUCHX",
+    "network": "London Underground",
+    "operator": "London Underground",
+    "payment:contactless": "yes",
+    "payment:oyster": "yes",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "no",
+    "wikidata": "Q795322",
+    "wikipedia": "en:Charing Cross tube station"
+  }
+},
+{
+  "type": "node",
+  "id": 4878468498,
+  "lat": 51.5117382,
+  "lon": -0.1318603,
+  "tags": {
+    "name": "陽城海鮮舫 Young Cheng Fresh Seafood Shop",
+    "name:en": "Young Cheng Fresh Seafood Shop",
+    "name:zh-Hans": "阳城海鲜舫",
+    "name:zh-Hant": "陽城海鮮舫",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 5207123395,
+  "lat": 51.5072143,
+  "lon": -0.1222409,
+  "tags": {
+    "fare_zone": "1",
+    "line": "District;Bakerloo;Northern;Circle",
+    "name": "Embankment",
+    "name:ru": "Эмбанкмент",
+    "naptan:AtcoCode": "9400ZZLUEMB",
+    "network": "London Underground",
+    "operator": "London Underground",
+    "payment:contactless": "yes",
+    "payment:oyster": "yes",
+    "public_transport": "station",
+    "railway": "station",
+    "ref:crs": "ZEK",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "no",
+    "wikidata": "Q1334978",
+    "wikimedia_commons": "Category:Embankment_tube_station",
+    "wikipedia": "en:Embankment tube station"
+  }
+},
+{
+  "type": "node",
+  "id": 5324642162,
+  "lat": 51.5078456,
+  "lon": -0.1243123,
+  "tags": {
+    "brand": "Jumbo",
+    "brand:wikidata": "Q2262314",
+    "brand:wikipedia": "en:Jumbo (supermarket)",
+    "description": "South African shop",
+    "name": "Jumbo",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 5418562421,
+  "lat": 51.5009173,
+  "lon": -0.1178642,
+  "tags": {
+    "name": "AP Food Express",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 5486109122,
+  "lat": 51.5097140,
+  "lon": -0.1315194,
+  "tags": {
+    "addr:city": "London",
+    "addr:housenumber": "35b",
+    "addr:postcode": "SW1Y 4EA",
+    "addr:street": "Panton Street",
+    "fhrs:id": "1007357",
+    "name": "Japan Centre",
+    "opening_hours": "Mo-Su 10:00-21:30",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+44 20 3405 1246",
+    "shop": "supermarket",
+    "toilets": "yes",
+    "toilets:wheelchair": "yes",
+    "website": "https://www.japancentre.com/en/locations/japan-centre-leicester-square",
+    "wheelchair": "yes",
+    "wikimedia_commons": "Category:Japan Centre, Leicester Square, London"
+  }
+},
+{
+  "type": "node",
+  "id": 6429327324,
+  "lat": 51.5030908,
+  "lon": -0.1161265,
+  "tags": {
+    "brand": "Marks & Spencer",
+    "brand:short": "M&S",
+    "brand:wikidata": "Q714491",
+    "brand:wikipedia": "en:Marks & Spencer",
+    "check_date": "2024-07-21",
+    "check_date:opening_hours": "2024-07-21",
+    "contact:website": "https://www.marksandspencer.com/stores/southbank-place-919",
+    "name": "M&S Foodhall",
+    "opening_hours": "Mo-Fr 07:00-22:00; Sa 08:00-22:00; Su 12:00-18:00",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6429327327,
+  "lat": 51.5029721,
+  "lon": -0.1162399,
+  "tags": {
+    "addr:city": "London",
+    "addr:housenumber": "26",
+    "addr:postcode": "SE1 7ND",
+    "addr:street": "York Road",
+    "addr:unit": "1A",
+    "amenity": "pharmacy",
+    "brand": "Boots",
+    "brand:wikidata": "Q6123139",
+    "brand:wikipedia": "en:Boots (company)",
+    "healthcare": "pharmacy",
+    "name": "Boots",
+    "opening_hours": "Sa 10:00-20:00; Su 12:00-18:00; Mo-Fr 08:00-19:00",
+    "payment:cash": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7140186755,
+  "lat": 51.5074975,
+  "lon": -0.1236888,
+  "tags": {
+    "addr:city": "London",
+    "addr:postcode": "WC2N 5HS",
+    "addr:street": "Strand",
+    "alt_name": "London Charing Cross",
+    "fare_zone": "1",
+    "name": "Charing Cross",
+    "name:ar": "تشارنغ كروس",
+    "name:he": "תחנת צ'רינג קרוס",
+    "name:ko": "채링 크로스",
+    "name:ru": "Чаринг-Кросс",
+    "naptan:AtcoCode": "9100CHRX",
+    "network": "National Rail",
+    "network:website": "https://www.nationalrail.co.uk/stations/chx/",
+    "network:wikidata": "Q26334",
+    "operator": "Network Rail",
+    "payment:contactless": "yes",
+    "payment:oyster": "yes",
+    "platforms": "6",
+    "public_transport": "station",
+    "railway": "station",
+    "railway:ref": "CHX",
+    "railway:ref:DB": "XKLC",
+    "ref:crs": "CHX",
+    "train": "yes",
+    "uic_ref": "7000007",
+    "wheelchair": "no",
+    "wikidata": "Q801128",
+    "wikipedia": "en:Charing Cross railway station"
+  }
+},
+{
+  "type": "node",
+  "id": 9849031118,
+  "lat": 51.5001489,
+  "lon": -0.1162940,
+  "tags": {
+    "addr:city": "London",
+    "addr:housenumber": "199",
+    "addr:postcode": "SE1 7FX",
+    "addr:street": "Westminster Bridge Road",
+    "amenity": "school",
+    "capacity": "750",
+    "check_date": "2026-09-22",
+    "contact:website": "https://www.dldcollege.co.uk/",
+    "isced:level": "2;3",
+    "max_age": "21",
+    "min_age": "13",
+    "name": "DLD College London",
+    "official_name": "DLD College",
+    "phone": "+44 20 7935 8411",
+    "ref:GB:ukprn": "10009020",
+    "ref:GB:uprn": "10091909062",
+    "ref:edubase": "100529",
+    "school:boarding": "yes",
+    "school:type": "independent",
+    "wikidata": "Q66220595"
+  }
+},
+{
+  "type": "node",
+  "id": 12583128351,
+  "lat": 51.5125444,
+  "lon": -0.1320046,
+  "tags": {
+    "addr:city": "London",
+    "addr:housenumber": "56",
+    "addr:postcode": "W1D 6AJ",
+    "addr:street": "Dean Street",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "sti_testing",
+    "name": "56 Dean Street",
+    "website": "https://www.dean.st/"
+  }
+},
+{
+  "type": "node",
+  "id": 13550924175,
+  "lat": 51.5120165,
+  "lon": -0.1307022,
+  "tags": {
+    "addr:city": "London",
+    "addr:housenumber": "9",
+    "addr:postcode": "W1D 5PL",
+    "addr:street": "Gerrard Street",
+    "check_date": "2026-02-12",
+    "fhrs:id": "412635",
+    "name": "唐人街兴隆门行 Xing Long Men Supermarket",
+    "name:en": "Xing Long Men Supermarket",
+    "name:zh-Hans": "唐人街兴隆门行",
+    "name:zh-Hant": "唐人街興隆門行",
+    "shop": "supermarket",
+    "source:addr": "FHRS Open Data",
+    "source:postcode": "FHRS Open Data"
+  }
+},
+{
+  "type": "node",
+  "id": 13808848002,
+  "lat": 51.5125421,
+  "lon": -0.1309687,
+  "tags": {
+    "brand": "Marks & Spencer",
+    "brand:short": "M&S",
+    "brand:wikidata": "Q714491",
+    "check_date": "2026-05-08",
+    "name": "M&S Food",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "way",
+  "id": 68807968,
+  "center": {
+    "lat": 51.5091774,
+    "lon": -0.1238787
+  },
+  "nodes": [
+    5333858451,
+    826724097,
+    826724237,
+    6828823949,
+    5333858451
+  ],
+  "tags": {
+    "addr:city": "London",
+    "addr:housenumber": "49-50",
+    "addr:postcode": "WC2N 5LL",
+    "addr:street": "Strand",
+    "amenity": "pharmacy",
+    "brand": "Superdrug",
+    "brand:wikidata": "Q7643261",
+    "brand:wikipedia": "en:Superdrug",
+    "building": "yes",
+    "check_date": "2023-02-25",
+    "contact:website": "https://www.superdrug.com/store/the-strand",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Superdrug",
+    "opening_hours": "Mo-Fr 07:30-20:00; Sa 11:00-20:00",
+    "payment:cash": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+44 20 7930 0381",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 122227536,
+  "center": {
+    "lat": 51.4991013,
+    "lon": -0.1187323
+  },
+  "nodes": [
+    12357523106,
+    9318398386,
+    538090942,
+    8609729725,
+    12133928355,
+    2623911736,
+    2250871504,
+    7678709888,
+    2623911738,
+    2623911737,
+    2623937415,
+    2623937414,
+    2623937411,
+    11775780853,
+    11775780852,
+    11775780854,
+    1366473474,
+    4478231527,
+    13002628740,
+    13002628739,
+    13002628741,
+    13002628744,
+    13002628742,
+    4478231524,
+    4478231526,
+    4478231525,
+    3509861135,
+    3509861131,
+    3509861130,
+    3509861129,
+    12354124651,
+    3509861128,
+    7678678246,
+    7678678245,
+    1366473479,
+    1395812152,
+    1395812146,
+    1395812205,
+    11526073226,
+    1366473480,
+    11526092476,
+    11526092474,
+    12989247057,
+    12357523106
+  ],
+  "tags": {
+    "addr:city": "London",
+    "addr:postcode": "SE1 7EH",
+    "addr:street": "Westminster Bridge Road",
+    "amenity": "hospital",
+    "check_date": "2024-11-05",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "St Thomas' Hospital",
+    "name:ar": "مستشفى سانت توماس",
+    "operator": "Guy's and St Thomas' NHS Foundation Trust",
+    "phone": "+44 20 7188 7188",
+    "source": "OS_OpenData_StreetView;Bing",
+    "website": "https://www.guysandstthomas.nhs.uk/",
+    "wheelchair": "yes",
+    "wikidata": "Q1143779",
+    "wikimedia_commons": "Category:St Thomas' Hospital",
+    "wikipedia": "en:St Thomas' Hospital"
+  }
+},
+{
+  "type": "way",
+  "id": 290405997,
+  "center": {
+    "lat": 51.5103364,
+    "lon": -0.1346886
+  },
+  "nodes": [
+    2939373049,
+    2939373051,
+    1238318162,
+    2939373050,
+    2939373049
+  ],
+  "tags": {
+    "addr:city": "London",
+    "addr:housenumber": "44-46",
+    "addr:postcode": "W1B 5RA",
+    "addr:street": "Regent Street",
+    "amenity": "pharmacy",
+    "branch": "London Piccadilly Circus",
+    "brand": "Boots",
+    "brand:wikidata": "Q6123139",
+    "brand:wikipedia": "en:Boots (company)",
+    "check_date": "2025-10-11",
+    "check_date:opening_hours": "2025-10-11",
+    "contact:phone": "+44 20 7734 6126",
+    "contact:website": "http://www.boots.com/stores/1000-london-piccadilly-circus-w1b-5ra",
+    "dispensing": "yes",
+    "fhrs:authority": "Westminster",
+    "fhrs:id": "413488",
+    "fhrs:local_authority_id": "01217/0044/0/001",
+    "healthcare": "pharmacy",
+    "level": "0",
+    "name": "Boots",
+    "opening_hours": "Mo-Fr 08:00-23:00; Sa 09:00-23:00; Su 12:00-18:00",
+    "operator": "Boots UK Limited",
+    "ref": "1000",
+    "source": "photograph;tags copied from replaced node",
+    "source:addr": "FHRS Open Data",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 559282496,
+  "center": {
+    "lat": 51.5109299,
+    "lon": -0.1217078
+  },
+  "nodes": [
+    1163876155,
+    5394650468,
+    5394650470,
+    1155427055,
+    1155429065,
+    1155428490,
+    1155427893,
+    1163876155
+  ],
+  "tags": {
+    "brand": "Marks & Spencer",
+    "brand:short": "M&S",
+    "brand:wikidata": "Q714491",
+    "name": "M&S Food",
+    "postal_code": "WC2E 7HA",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "way",
+  "id": 570602313,
+  "center": {
+    "lat": 51.5117063,
+    "lon": -0.1343705
+  },
+  "nodes": [
+    1115501149,
+    1688441460,
+    1688441472,
+    13808620764,
+    6065422038,
+    5485847872,
+    5485960573,
+    5485891385,
+    5485777720,
+    5485779221,
+    5485779222,
+    5485779223,
+    1115501146,
+    2559609967,
+    5485793229,
+    5485779225,
+    1115501154,
+    1115501151,
+    1115501149
+  ],
+  "tags": {
+    "addr:city": "London",
+    "addr:housenumber": "23",
+    "addr:postcode": "W1D 7LF",
+    "addr:street": "Great Windmill Street",
+    "amenity": "school",
+    "capacity": "170",
+    "check_date": "2026-03-16",
+    "denomination": "anglican",
+    "diocese": "Diocese of London",
+    "education": "school",
+    "isced:level": "0;1",
+    "max_age": "11",
+    "min_age": "3",
+    "name": "Soho Parish C of E Primary School",
+    "phone": "+44 20 7432 7320",
+    "ref:GB:uprn": "100023472742",
+    "ref:edubase": "101131",
+    "religion": "christian",
+    "school": "primary",
+    "school:type": "voluntary_aided",
+    "website": "https://www.sohoparish.co.uk/",
+    "wikidata": "Q66221263"
+  }
+},
+{
+  "type": "way",
+  "id": 993439439,
+  "center": {
+    "lat": 51.5118965,
+    "lon": -0.1303370
+  },
+  "nodes": [
+    6970195867,
+    9178075403,
+    9195749525,
+    9195749639,
+    9195749635,
+    9195722811,
+    9178075406,
+    9178075405,
+    9178075404,
+    9176403530,
+    9176403531,
+    6970195867
+  ],
+  "tags": {
+    "addr:city": "London",
+    "addr:housenumber": "42-44",
+    "addr:postcode": "W1D 5QG",
+    "addr:street": "Gerrard Street",
+    "branch": "Chinatown",
+    "description": "Chinese Supermarket",
+    "fhrs:id": "412653",
+    "name": "Loon Fung Supermarket",
+    "name:zh-Hans": "龙凤行",
+    "name:zh-Hant": "龍鳳行",
+    "name:zh-Latn-pinyin": "Lóngfèngháng",
+    "opening_hours": "Mo-Sa 10:00-21:00; Su 10:00-21:00; PH 10:00-21:00",
+    "phone": "+44 20 7437 7332",
+    "shop": "supermarket",
+    "website": "http://www.loonfung.com/ourstores_chi.htm"
+  }
+},
+{
+  "type": "way",
+  "id": 995869087,
+  "center": {
+    "lat": 51.5116612,
+    "lon": -0.1304815
+  },
+  "nodes": [
+    9195749534,
+    9195749537,
+    9195749657,
+    9195749538,
+    2216989761,
+    9195749536,
+    9195749663,
+    9195749658,
+    9195749659,
+    9195749660,
+    9195749661,
+    9195749646,
+    9195749647,
+    9195749648,
+    9195749649,
+    9195749662,
+    9178075389,
+    9178075399,
+    9178075398,
+    9195749650,
+    9178075391,
+    9178075401,
+    9195749652,
+    9195749653,
+    9195749533,
+    9195749534
+  ],
+  "tags": {
+    "addr:city": "London",
+    "addr:housenumber": "18-20",
+    "addr:postcode": "WC2H 7BA",
+    "addr:street": "Lisle Street",
+    "check_date": "2025-10-02",
+    "fhrs:id": "412976",
+    "image": "https://archive.org/details/west-end-2019-05-24/DSCN0064.JPG",
+    "level": "0",
+    "name": "泗和 SeeWoo",
+    "name:en": "SeeWoo",
+    "name:zh-Hans": "泗和",
+    "name:zh-Hant": "泗和",
+    "shop": "supermarket",
+    "source:addr": "FHRS Open Data",
+    "source:postcode": "FHRS Open Data",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "relation",
+  "id": 15698821,
+  "center": {
+    "lat": 51.5116615,
+    "lon": -0.1279577
+  },
+  "members": [
+    {
+      "type": "node",
+      "ref": 1567842141,
+      "role": ""
+    },
+    {
+      "type": "node",
+      "ref": 5479635443,
+      "role": ""
+    },
+    {
+      "type": "node",
+      "ref": 1567842127,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860509,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860510,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860672,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860592,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860506,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860515,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860568,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860505,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860517,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860574,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860571,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860516,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860508,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860567,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860576,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860602,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860603,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860599,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860601,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860600,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860598,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860624,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860524,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860518,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860502,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860526,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860532,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860530,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860531,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860528,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860504,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1459359664,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1160780909,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860533,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860521,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860525,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860520,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860522,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860641,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860642,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860640,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860639,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860638,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860666,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860682,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860674,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860681,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860677,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860678,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860675,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860679,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860676,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860680,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860625,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860605,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860623,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860630,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860546,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860628,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860629,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860550,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860537,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860607,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860618,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860616,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860611,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860620,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860604,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860621,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860610,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860617,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860608,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860614,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860606,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860612,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860609,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569860615,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1160780910,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "building": "transportation",
+    "comment": "Please read: https://wiki.openstreetmap.org/wiki/London_public_transport_tagging_scheme/relations",
+    "description": "Assistance for underground navigation and routing - please readhttps://wiki.openstreetmap.org/wiki/London_public_transport_tagging_scheme/Underground_navigation_and_access",
+    "location": "underground",
+    "name": "Leicester Square Tube Station (buildings and tunnels)",
+    "public_transport": "station",
+    "type": "public_transport",
+    "url": "https://wiki.openstreetmap.org/wiki/London_public_transport_tagging_scheme/Underground_navigation_and_access"
+  }
+},
+{
+  "type": "relation",
+  "id": 15698857,
+  "center": {
+    "lat": 51.5130885,
+    "lon": -0.1242967
+  },
+  "members": [
+    {
+      "type": "node",
+      "ref": 5479777483,
+      "role": ""
+    },
+    {
+      "type": "node",
+      "ref": 7556510381,
+      "role": ""
+    },
+    {
+      "type": "node",
+      "ref": 5479717495,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883257,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883287,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883286,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883288,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883393,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883389,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883391,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883375,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883310,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883333,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883330,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883256,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883339,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883255,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883324,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883326,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883261,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883285,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883347,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883282,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883317,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 808081406,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883284,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 808081414,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 808081405,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883276,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883275,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883274,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883273,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883272,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883271,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883270,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883269,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883268,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883267,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883266,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883265,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883264,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883281,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883290,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883280,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883279,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883278,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883260,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883258,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883336,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 569883342,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 139810560,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "building": "transportation",
+    "comment": "Please read: https://wiki.openstreetmap.org/wiki/London_public_transport_tagging_scheme/relations",
+    "location": "underground",
+    "name": "Covent Garden Tube Station (Building and tunnels)",
+    "public_transport": "station",
+    "type": "public_transport",
+    "url": "https://wiki.openstreetmap.org/wiki/London_public_transport_tagging_scheme/Underground_navigation_and_access",
+    "wheelchair": "yes"
+  }
+}
+
+  ]
+}
