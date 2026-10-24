@@ -402,3 +402,40 @@ Changed files for this investigation: `vite.config.ts` (loopback/strict-port sta
 A further live check switched into 2D before ion geometry finished loading, observed nonempty selected building content and both sources Ready with no rendering failure, then restored 3D successfully. The inspected parent process chain confirmed `npm run dev → shell → Vite`.
 
 Final results for this investigation: production build and lint passed, **42 unit tests** and **14 Chromium tests** passed. HMR tests exercise real filesystem updates on the CLI-overridden test port, occupied-port handling, and unchanged host/CORS protections. Imagery tests retain the 20-second deadline, no automatic requests after fallback, visible attribution, and a single viewer. Live ion geometry and early/late 2D–3D checks were verified separately from the credential-isolated regression suite. The precise cause of the original browser's HMR failure and the responsible component on the OSM TCP path remain unproven; neither was hidden by disabling errors, weakening security, or changing imagery services.
+
+### Traffic data model
+
+`src/lib/traffic.ts` provides pure validation and derivation functions; it does
+not connect a live traffic feed or enable congestion-aware routing. The map,
+analytics UI and OSRM requests retain their existing behavior.
+
+- `parseTrafficObservation` validates a positive safe integer OSM way ID, a valid
+  ISO UTC timestamp (`YYYY-MM-DDTHH:mm:ssZ` or millisecond precision), speed
+  from 0–300 km/h, volume from 0–100,000 vehicles/hour, and explicit `observed`
+  or `simulated` provenance. Numeric strings, nonfinite values, negative values
+  and calendar dates that would be normalized are rejected. Upper bounds are
+  plausibility guards, not estimates; volume may be fractional as an hourly rate.
+- `deriveRoadTrafficState` retains the observation and its provenance, nullable
+  speed limit, freshness and congestion level. Missing observations or limits,
+  stale data and future data produce `unknown`; a measured zero speed with a
+  known positive limit produces `severe`. Volume is retained but does not drive
+  speed-based classification. Speed limits must be positive and at most 300 km/h.
+- Default speed/limit ratio thresholds are inclusive lower bounds: `free` ≥0.80,
+  `moderate` ≥0.50, `heavy` ≥0.25, otherwise `severe`. Callers can supply a policy
+  with strictly increasing heavy/moderate/free thresholds in (0, 1]. These are
+  analytical heuristics, not calibrated traffic or level-of-service measurements.
+- Callers supply evaluation time as epoch milliseconds: no implicit wall clock.
+  Default maximum observation age is five minutes (inclusive), with zero future
+  tolerance. Both durations are configurable, finite, nonnegative milliseconds.
+  Stale/future observations remain attached for inspection but are not classified.
+  Freshness alone does not establish that an observation is a suitable live feed.
+- `buildRoadTrafficStates` joins observations and explicit speed-limit maps to
+  existing `Road.id` values, preserving road order. Unknown IDs, duplicate roads
+  and multiple observations per road are rejected; callers must select the
+  applicable observation explicitly rather than silently mixing sources/history.
+  The 953-road London fixture supplies neither speed limits nor traffic records;
+  using it without additional inputs yields unknown traffic for every road.
+
+Tests in `tests/traffic.test.mjs` use synthetic records only; none are bundled as
+real measurements. Future integrations must supply appropriately licensed data
+and preserve the distinction between observations and simulations.
